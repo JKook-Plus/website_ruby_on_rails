@@ -56,7 +56,7 @@ group :development, :test do
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
   #Make errors better looking
-  gem 'better_errors', '~> 2.4'
+  gem 'better_errors', '~> 2.8'
 end
 
 group :development do
